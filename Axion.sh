@@ -8,8 +8,5 @@ git clone https://github.com/Failedmush/vendor_xiaomi_renoir -b lineage-22.2 ven
 git clone https://github.com/Failedmush/vendor_xiaomi_sm8350-common -b lineage-22.2 vendor/xiaomi/sm8350-common && \
 git clone https://github.com/Failedmush/android_kernel_xiaomi_sm8350 -b lineage-22.2 kernel/xiaomi/sm8350 && \
 git clone https://github.com/Failedmush/android_hardware_xiaomi -b lineage-22.2 hardware/xiaomi && \
-. build/envsetup.sh; \
-# axion configuration
-breakfast renoir user &&
-# Build
-mka bacon"
+. build/envsetup.sh && \
+gk -s && axion renoir va user && make installclean && ax -br"
