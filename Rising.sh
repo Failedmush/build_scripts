@@ -8,6 +8,5 @@ git clone https://github.com/Failedmush/vendor_xiaomi_renoir -b lineage-22.2 ven
 git clone https://github.com/Failedmush/vendor_xiaomi_sm8350-common -b lineage-22.2 vendor/xiaomi/sm8350-common && \
 git clone https://github.com/Failedmush/android_kernel_xiaomi_sm8350 -b lineage-22.2 kernel/xiaomi/sm8350 && \
 git clone https://github.com/Failedmush/android_hardware_xiaomi -b lineage-22.2 hardware/xiaomi && \
-. build/envsetup.sh; \
-riseup renoir user && \
-rise b; \
+. build/envsetup.sh && \
+riseup renoir user && make installclean && rise b; \
