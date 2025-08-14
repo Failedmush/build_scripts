@@ -1,0 +1,9 @@
+Changelog :
+• Auguest 2025 sercuity patch
+• Sync latest Lineage os device tree,vendor, hardware
+• Added NFC support for JP devices should also work 
+• NFC support globel too
+• added Osaifu-Keitai support for JP devices(Tested and works)
+• added sony atmos support
+• added miui camera support
+• Include KernelSU Next 1.0.9 with Susfs 1.5.7, Firmware, BCR
