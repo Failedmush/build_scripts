@@ -1,11 +1,11 @@
 Changelog :
-• September 2025 sercuity patch
+• October 2025 sercuity patch
 • Added NFC support for JP devices should also work 
 • NFC support globel too
 • added Osaifu-Keitai support for JP devices(Tested and works)
 • added sony atmos support
 • added miui camera support
-• Include KernelSU Next 1.0.9, Firmware, BCR
+• Include KernelSU Next 1.1.1 with sufus 1.5.10, Firmware, BCR
 
 
 I will maintain this monthly
