@@ -1,1 +1,11 @@
-updated for A16 support
+1 # OrangeFox Recovery Changelog
+    2
+    3 ## [R12.1_2] - 2026-06-11 (renoir)
+    4 - Updated internal release version to R12.1
+    5 - Set Maintainer Patch Version to _2
+    6 - Switched build variant to Unofficial (Stable)
+    7 - Added dedicated renoir_build.sh script for
+      automated compilation
+    8 - Updated for A16 support
+    9 - Added support for Android 13 to Android 16
+   10 - Full support for MIUI and other ROM ports
