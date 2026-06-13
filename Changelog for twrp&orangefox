@@ -1,3 +1,17 @@
+# TWRP Recovery Changelog (renoir)
+
+## [3.7.1_12] - 2026-06-13
+- **MTP Fixed**: Implemented "Perfect Match" USB logic with official Product IDs (0xFF40/0xFF48) and UDC controller fixes.
+- **Vibration Fixed**: Restored stable haptics driver logic for reliable tactile feedback.
+- **UI Offsets**: Optimized status bar layout to clear the notch (Y=28, H=6, X=10).
+- **CPU Temperature**: Added independent horizontal positioning for CPU temp (150px offset).
+- **Backup Improvements**: Added full support for EFS (IMEI/Signal) and Persist partition backups.
+- **NTFS Support**: Added ntfs-3g modules for mounting/formatting NTFS USB-OTG drives.
+- **Build Automation**: Added a root-aware build.sh script for easy, one-command compilation.
+- **Clean Configuration**: Disabled EDL mode and removed redundant/conflicting system properties
+
+
+
 1 # OrangeFox Recovery Changelog
     2
     3 ## [R12.1_2] - 2026-06-11 (renoir)
