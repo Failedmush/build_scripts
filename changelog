@@ -1,5 +1,12 @@
 Changelog
 Device: Xiaomi Mi 11 Lite 5G (renoir)
+Date: 14/06/2026
+Kernel
+* Fix unexpected reboot after system shutdown
+Resolved an issue where the device would
+automatically initiate a reboot sequence immediately
+after a successful shutdown. This ensures the device
+remains powered off as intended.
 Date: 09/06/2026
 * **Source Architecture Overhaul**
   * Fully rebased and updated the device, device/vendor-common, and vendor tree structures for improved build stability.
