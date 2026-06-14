@@ -7,6 +7,9 @@ Resolved an issue where the device would
 automatically initiate a reboot sequence immediately
 after a successful shutdown. This ensures the device
 remains powered off as intended.
+* Upgraded Dolby Vision Stack: Switched to a newer
+  standalone Dolby Vision stack backported from
+   Android 16. credits to @swiitchOFF for the commits 
 
 Date: 09/06/2026
 * **Source Architecture Overhaul**
